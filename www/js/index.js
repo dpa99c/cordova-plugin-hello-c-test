@@ -4,10 +4,17 @@ function log(msg){
 
 function onDeviceReady() {
     log("deviceready");
-    hello.greet("World", function(msg){
-        log("success: " + msg);
+
+    helloc.getArch(function (arch) {
+        log("Current architecture: " + arch);
+    }, function (err) {
+        log(err);
+    });
+
+    helloc.hello("World", function(msg){
+        log(msg);
     },function(err){
-        log("err: " + err);
-    })
+        log(err);
+    });
 }
 document.addEventListener('deviceready', onDeviceReady, false);
