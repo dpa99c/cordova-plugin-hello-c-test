@@ -11,7 +11,7 @@ function onDeviceReady() {
         log(err);
     });
 
-    helloc.hello("World", function(msg){
+    helloc.hello("Hello World", function(msg){
         log(msg);
     },function(err){
         log(err);
