@@ -16,5 +16,11 @@ function onDeviceReady() {
     },function(err){
         log(err);
     });
+
+    helloc.calculate(2, 3, function(result){
+        log("mylib calculate() result: " + result);
+    },function(err){
+        log(err);
+    });
 }
 document.addEventListener('deviceready', onDeviceReady, false);
