@@ -1,0 +1,19 @@
+{
+  "name": "io.cordova.hellocordova",
+  "version": "1.0.0",
+  "displayName": "HelloCordova",
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-hello-c": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "latest",
+    "cordova-ios": "~4.3.1",
+    "cordova-plugin-hello-c": "git+https://github.com/dpa99c/cordova-plugin-hello-c.git"
+  }
+}
