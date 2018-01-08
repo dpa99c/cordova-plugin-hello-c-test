@@ -20,7 +20,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
 
-    <engine name="android" spec="latest" />
+    <engine name="android" spec="6" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>

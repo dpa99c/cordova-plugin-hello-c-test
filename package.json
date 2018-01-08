@@ -12,7 +12,7 @@
     }
   },
   "dependencies": {
-    "cordova-android": "latest",
+    "cordova-android": "6",
     "cordova-ios": "~4.3.1",
     "cordova-plugin-hello-c": "git+https://github.com/dpa99c/cordova-plugin-hello-c.git"
   }
