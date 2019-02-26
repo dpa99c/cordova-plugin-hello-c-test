@@ -4,7 +4,6 @@
   "displayName": "HelloCordova",
   "cordova": {
     "platforms": [
-      "ios",
       "android"
     ],
     "plugins": {
@@ -13,7 +12,6 @@
   },
   "dependencies": {
     "cordova-android": "^7.1.1",
-    "cordova-ios": "~4.3.1",
     "cordova-plugin-hello-c": "git+https://github.com/dpa99c/cordova-plugin-hello-c.git"
   }
 }
