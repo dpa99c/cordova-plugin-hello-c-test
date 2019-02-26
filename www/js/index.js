@@ -4,6 +4,7 @@ function log(msg){
 
 function onDeviceReady() {
     log("deviceready");
+    log("Platform: "+cordova.platformId+" "+cordova.platformVersion);
 
     helloc.getArch(function (arch) {
         log("Current architecture: " + arch);
