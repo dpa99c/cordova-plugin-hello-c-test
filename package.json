@@ -7,11 +7,15 @@
       "android"
     ],
     "plugins": {
-      "cordova-plugin-hello-c": {}
+      "cordova-plugin-hello-c": {},
+      "cordova-plugin-ionic-webview": {
+        "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
+      }
     }
   },
   "dependencies": {
     "cordova-android": "^8.0.0",
-    "cordova-plugin-hello-c": "git+https://github.com/dpa99c/cordova-plugin-hello-c.git"
+    "cordova-plugin-hello-c": "git+https://github.com/dpa99c/cordova-plugin-hello-c.git",
+    "cordova-plugin-ionic-webview": "^4.0.0"
   }
 }
