@@ -24,4 +24,14 @@ function onDeviceReady() {
         log(err);
     });
 }
+
+function causeCrash(){
+    log("about to crash");
+    helloc.causeCrash(function(result){
+        log("crash operation succeeded - did not crash!");
+    },function(err){
+        log("crash operation failed: "+err);
+    });
+}
+
 document.addEventListener('deviceready', onDeviceReady, false);

@@ -1,17 +1,21 @@
 {
   "name": "io.cordova.hellocordova",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "HelloCordova",
   "cordova": {
     "platforms": [
       "android"
     ],
     "plugins": {
-      "cordova-plugin-hello-c": {}
+      "cordova-plugin-hello-c": {},
+      "cordova-plugin-whitelist": {}
     }
   },
   "dependencies": {
     "cordova-android": "^8.1.0",
     "cordova-plugin-hello-c": "git+https://github.com/dpa99c/cordova-plugin-hello-c.git"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "1"
   }
 }
